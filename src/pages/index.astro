@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Cardv from '../components/Vue/Cardv.vue';
+---
+
+<Layout title="Examen Final">
+	<div class="m-20 flex justify-center gap-[100px]">
+		<div class="flex flex-col gap-[50px]">
+			<Cardv client:load /> 
+			<Cardv client:load /> 
+			<Cardv client:load /> 
+			<Cardv client:load /> 
+			<Cardv client:load /> 
+		</div> 
+		<div class="flex flex-col gap-[50px]">
+			<Cardv client:load />
+			<Cardv client:load />
+			<Cardv client:load />
+			<Cardv client:load />
+			<Cardv client:load />
+		</div>
+		
+	</div>
+</Layout>
+
